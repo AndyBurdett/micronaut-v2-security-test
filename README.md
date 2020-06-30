@@ -1,4 +1,4 @@
-#####anonymous 
+##### anonymous 
 `curl -v localhost:8080/person` = 200 ok
 
 ##### Correct user/pwd + role
