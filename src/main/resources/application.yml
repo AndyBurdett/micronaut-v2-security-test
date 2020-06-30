@@ -1,0 +1,25 @@
+micronaut:
+  application:
+    name: testService
+  security:
+    enabled: true
+  metrics:
+    export:
+      graphite:
+        enabled: false
+        host: localhost
+        port: 2004
+        step: PT1M
+      prometheus:
+        enabled: false
+        descriptions: true
+        step: PT1M
+    enabled: true
+
+credentials:
+  users:
+    admin: "password"
+    user: "1234qwer"
+  roles:
+    admin: "ADMIN"
+    user: "USER"

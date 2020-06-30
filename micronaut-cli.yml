@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: uk.gov.hmrc.xfr
+testFramework: spock
+sourceLanguage: kotlin
+buildTool: gradle
+features: [app-name, docker, file-watch, gradle, http-client, kotlin, kotlin-application, kotlin-extension-functions, logback, management, micrometer, micrometer-graphite, micrometer-prometheus, openapi, readme, security, security-annotations, shade, spock, tomcat-server, yaml]
